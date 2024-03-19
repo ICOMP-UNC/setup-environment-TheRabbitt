@@ -15,8 +15,8 @@ void test_logic_substract(void)
 
 void test_logic_multiply(void)
 {
-    //TEST_ASSERT_EQUAL(10, multiply(2,5));
-    //TEST_ASSERT_NOT_EQUAL(0, multiply(2,2));
+    TEST_ASSERT_EQUAL(10, multiply(2,5));
+    TEST_ASSERT_NOT_EQUAL(0, multiply(2,2));
 }
 
 void test_logic_divide(void)

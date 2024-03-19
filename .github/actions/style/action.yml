@@ -20,7 +20,7 @@ runs:
 
         ERROR_FILE_FLAG=$PROJECT_PATH/clang-format_errors.txt
 
-        # ToDo: Add documentation and describe better this command
+        # CLANG_COMMAND: is used to format the source code files using the clang-format tool and redirect any output, including error messages, to a designated error file.
         CLANG_COMMAND=$(clang-format -i $SOURCE_FILES > ${ERROR_FILE_FLAG})
 
         echo "Running: clang-format -i $SOURCE_FILES"
